@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #001427;
+}
+main {
+    background-color: #f4d58d23;
+    margin: 10px;
+    border-radius: 10px;
+    color: #e2e2ec;
+}
+
+h1 {
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #708d81;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+a {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #001427;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #001427;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px rgb(32, 32, 51);
+}
+
+.nav-brand {
+    display: inline-block;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (max-width:640px) {
+    a {
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        margin: 5px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
+
+@media screen and (max-width:600px) {
+    a {
+        font-size: 0.9rem;
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        margin: 5px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
+
+@media screen and (max-width:550px) {
+    a {
+        font-size: 0.9rem;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        padding: 7px;
+        margin: 5px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
+
+@media screen and (max-width:520px) {
+    a {
+        font-size: 0.9rem;
+        text-align: center;
+        display: inline-block;
+        padding: 7px;
+        margin: 4px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
+
+@media screen and (max-width:510px) {
+    a {
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 5px;
+        margin: 3px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        background-color: #708d81;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    a {
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 5px;
+        margin: 3px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
+
+@media screen and (max-width:365px) {
+    a {
+        font-size: 0.8rem;
+        text-align: center;
+        display: inline-block;
+        padding: 4px;
+        margin: 3px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
+
+@media screen and (max-width:335px) {
+    a {
+        font-size: 0.75rem;
+        text-align: center;
+        display: inline-block;
+        padding: 4px;
+        margin: 3px;
+        text-decoration: none;
+        color: #001427;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #001427;
+        border-radius: 20px;
+        box-shadow: 2px 3px 10px rgb(32, 32, 51);
+    }
+}
